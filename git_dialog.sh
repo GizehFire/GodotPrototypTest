@@ -64,7 +64,7 @@ commit_changes() {
 
 # Funktion zum Pushen der Änderungen
 push_changes() {
-    git push
+    git push origin main
     dialog --msgbox "Änderungen wurden erfolgreich gepusht." 10 40
 }
 
